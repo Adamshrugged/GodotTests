@@ -1,0 +1,20 @@
+[gd_scene load_steps=4 format=3 uid="uid://og1qgawrtaty"]
+
+[ext_resource type="Script" path="res://Scripts/critter.gd" id="1_4niuj"]
+[ext_resource type="Texture2D" uid="uid://dlcdog05mpasr" path="res://Images/icon.svg" id="1_xvjh5"]
+[ext_resource type="Resource" uid="uid://dvoie7qphkc1v" path="res://Resources/names.tres" id="2_yllyt"]
+
+[node name="Critter" type="Node2D"]
+script = ExtResource("1_4niuj")
+resourceStuff = ExtResource("2_yllyt")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_xvjh5")
+centered = false
+
+[node name="Label" type="Label" parent="."]
+offset_left = 7.0
+offset_top = 132.0
+offset_right = 127.0
+offset_bottom = 155.0
+text = "MY_NAME"

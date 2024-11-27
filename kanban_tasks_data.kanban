@@ -1,0 +1,66 @@
+{
+	"categories": [
+		{
+			"uuid": "b0b07877-6903-41e8-8a7d-06142d3df6fb",
+			"title": "Task",
+			"color": "70bafa"
+		}
+	],
+	"stages": [
+		{
+			"uuid": "ce4f1e41-3895-4f39-8bbe-8b41b3678c01",
+			"title": "Todo",
+			"tasks": [
+				"27ef61d4-36d5-4262-beea-780a7baa3623",
+				"f57dfb72-bfe4-486d-a29e-82eff51b7214",
+				"45864dcd-5a3e-4186-9bfd-f7cd1f82e362"
+			]
+		},
+		{
+			"uuid": "ebef8057-549b-448e-857e-3d1e5a6c22aa",
+			"title": "Doing",
+			"tasks": []
+		},
+		{
+			"uuid": "285be136-ffef-4370-a9f7-57090b3468f7",
+			"title": "Done",
+			"tasks": []
+		}
+	],
+	"tasks": [
+		{
+			"uuid": "27ef61d4-36d5-4262-beea-780a7baa3623",
+			"title": "Resource file with names",
+			"description": "",
+			"category": "b0b07877-6903-41e8-8a7d-06142d3df6fb",
+			"steps": []
+		},
+		{
+			"uuid": "f57dfb72-bfe4-486d-a29e-82eff51b7214",
+			"title": "JSON file with names",
+			"description": "",
+			"category": "b0b07877-6903-41e8-8a7d-06142d3df6fb",
+			"steps": []
+		},
+		{
+			"uuid": "45864dcd-5a3e-4186-9bfd-f7cd1f82e362",
+			"title": "Create new entity with the resource",
+			"description": "",
+			"category": "b0b07877-6903-41e8-8a7d-06142d3df6fb",
+			"steps": []
+		}
+	],
+	"layout": {
+		"columns": [
+			[
+				"ce4f1e41-3895-4f39-8bbe-8b41b3678c01"
+			],
+			[
+				"ebef8057-549b-448e-857e-3d1e5a6c22aa"
+			],
+			[
+				"285be136-ffef-4370-a9f7-57090b3468f7"
+			]
+		]
+	}
+}
